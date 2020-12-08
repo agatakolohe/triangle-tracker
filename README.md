@@ -20,8 +20,10 @@ It is a console app that will take three numbers and return what type of triangl
 | It will prompt the user to enter 3 numbers for each side of a triangle         | Triangle("Please enter three numbers to see what type of triangle they form").toEqual(3,3,3); |
 | It will return "Equilateral" if all three sides are equal                      | Triangle(3,3,3).toEqual("Equilateral");                                                       |
 | It will return "Isosceles" if exactly two sides are equal                      | Triangle(3,3,2).toEqual("Isosceles");                                                         |
-| It will return "Scalene" if no sides are equal are equal                       | Triangle(1,3,1).toEqual("Isosceles");                                                         |
+| It will return "Scalene" if no sides are equal                                 | Triangle(1,3,1).toEqual("Isosceles");                                                         |
 | It will return "Not a triangle" if one side is greater than two sides combined | Triangle(2,2,8).toEqual("Not a triangle");                                                    |
+
+//should it stay .toEqual or change because it is C#
 
 </details>
 
